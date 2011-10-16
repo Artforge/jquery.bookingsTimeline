@@ -75,12 +75,20 @@ div.bookingstimeline-vtheader-item-name {
 /* Slider */
 
 div.bookingstimeline-slide-container {
+	position:relative;
 	overflow: auto;
 	border-left: 1px solid #999;
 }
 
 
 /* Grid */
+
+div.bookingstimeline-grid
+{
+	float:none !important;
+	position:relative;
+	top: 0px;
+}
 
 div.bookingstimeline-grid-row-cell {
 	width: 20px;
@@ -97,6 +105,8 @@ div.bookingstimeline-grid-row-cell.bookingstimeline-weekend {
 /* Blocks */
 
 div.bookingstimeline-blocks {
+	position:absolute;
+	top: 0px;
 	margin-top: 40px;
 }
 
